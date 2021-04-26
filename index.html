@@ -14,6 +14,7 @@
 			color: #f2777a;
 			text-shadow: 1px 1px 2px #222;
 		}
+
 		h1,
 		h2,
 		h3,
@@ -26,33 +27,39 @@
 			padding: 6px;
 			margin: 0;
 		}
+
 		li {
 			line-height: 20px;
 			padding: 0;
 			border: 0;
 		}
+
 		a,
-		a > span {
+		a>span {
 			position: relative;
 			color: #999;
 			text-decoration: none;
 			line-height: 22px;
 			transition: color .3s ease-in-out;
 		}
+
 		a:hover {
 			color: #eee;
 		}
+
 		a:before,
 		a:after,
-		a > span:before,
-		a > span:after {
+		a>span:before,
+		a>span:after {
 			content: '';
 			position: absolute;
 			transition: transform .3s ease-in-out;
 		}
+
 		.effect {
 			padding-top: 0;
 		}
+
 		.effect:before {
 			left: 0;
 			bottom: -3px;
@@ -61,57 +68,78 @@
 			background: #f2777a;
 			transform: scaleX(0);
 		}
+
 		.effect:hover:before {
 			transform: scaleX(0.85);
 		}
-		img, .hero {
+
+		img,
+		.hero {
 			display: block;
 			margin-bottom: -25px;
 			margin-left: auto;
 			margin-right: auto;
 			width: 100%;
-                        text-align: center;
+			text-align: center;
 		}
-                .hero h5 { color: #eee; }
-                .w3-container {
-                        padding-top: 50px;
-                }
-                .w3-ul li {
-                    border: none;
-                }
+
+		.hero h5 {
+			color: #eee;
+		}
+
+		.w3-container {
+			padding-top: 50px;
+		}
+
+		.w3-ul li {
+			border: none;
+		}
 	</style>
 </head>
 
 <body>
 	<div class="w3-container w3-display-middle w3-centered" style="width: 22em; margin-top: -4em;">
-		<img src="https://i.imgur.com/mOMEuQE.png"/>
-                <div class="hero"><h5>A pig that doesn't fly is just a pig.</h5></div>
+		<img src="https://i.imgur.com/mOMEuQE.png" />
+		<div class="hero">
+			<h5>A pig that doesn't fly is just a pig.</h5>
+		</div>
 		<div class="w3-cell-row">
 			<div class="w3-container w3-cell w3-mobile">
 				<ul class="w3-ul w3-center">
-					<li><h4>WORK</h4></li>
-                                        <li><a class="effect" target="_blank" href="https://calendar.google.com/calendar/u/0/r">Calendar</a></li>
-                                        <li><a class="effect" target="_blank" href="https://calendar.google.com/calendar/u/0/r">Logins & Passwords</a></li>
-                                        <li><a class="effect" target="_blank" href="https://drive.nutshell-lab.com/">Corporate Files</a></li>
-                                        <li><a class="effect" target="_blank" href="https://github.com">Github</a></li>
+					<li>
+						<h4>WORK</h4>
+					</li>
+					<li><a class="effect" target="_blank" href="https://calendar.google.com/calendar/u/0/r">Calendar</a></li>
+					<li><a class="effect" target="_blank" href="https://aegis.nutshell-lab.com">Logins & Passwords</a>
+					</li>
+					<li><a class="effect" target="_blank" href="http://drive.nutshell-lab.com/">Corporate Files</a></li>
+					<li><a class="effect" target="_blank" href="https://github.com">Github</a></li>
 				</ul>
 			</div>
 			<div class="w3-container w3-cell w3-mobile">
 				<ul class="w3-ul w3-center">
-					<li><h4>SERVERS</h4></li>
-					<li><a class="effect" target="_blank" href="https://eu-west-1.console.aws.amazon.com/cloudwatch/home?region=eu-west-1#logsV2:log-groups">Logs</a></li>
-                                        <li><a class="effect" target="_blank" href="https://eu-west-1.console.aws.amazon.com/apigateway/">Gateways</a></li>
-                                        <li><a class="effect" target="_blank" href="https://eu-west-1.console.aws.amazon.com/rds">Databases</a></li>
-                                        <li><a class="effect" target="_blank" href="https://eu-west-1.console.aws.amazon.com/cognito/">Identities</a></li>
+					<li>
+						<h4>SERVERS</h4>
+					</li>
+					<li><a class="effect" target="_blank"
+							href="https://eu-west-1.console.aws.amazon.com/cloudwatch/home?region=eu-west-1#logsV2:log-groups">Logs</a>
+					</li>
+					<li><a class="effect" target="_blank" href="https://eu-west-1.console.aws.amazon.com/apigateway/">Gateways</a>
+					</li>
+					<li><a class="effect" target="_blank" href="https://eu-west-1.console.aws.amazon.com/rds">Databases</a></li>
+					<li><a class="effect" target="_blank" href="https://eu-west-1.console.aws.amazon.com/cognito/">Identities</a>
+					</li>
 				</ul>
 			</div>
 			<div class="w3-container w3-cell w3-mobile">
 				<ul class="w3-ul w3-center">
-					<li><h4>OTHER</h4></li>
+					<li>
+						<h4>OTHER</h4>
+					</li>
 					<li><a class="effect" target="_blank" href="https://www.reddit.com/">Reddit</a></li>
-                                        <li><a class="effect" target="_blank" href="https://www.youtube.com/">Youtube</a></li>
-                                        <li><a class="effect" target="_blank" href="https://news.ycombinator.com/">Hackernews</a></li>
-                                        <li><a class="effect" target="_blank" href="https://increment.com/open-source/">Increment</a></li>
+					<li><a class="effect" target="_blank" href="https://www.youtube.com/">Youtube</a></li>
+					<li><a class="effect" target="_blank" href="https://news.ycombinator.com/">Hackernews</a></li>
+					<li><a class="effect" target="_blank" href="https://increment.com/open-source/">Increment</a></li>
 				</ul>
 			</div>
 		</div>
